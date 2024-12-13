@@ -1,0 +1,39 @@
+body{
+    background-image: url(../Images/7.png);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: 100% 100%;
+}
+
+form{
+    backdrop-filter: blur(20px);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: blue !important;
+}
+
+.btn:hover:hover{
+    color: white !important;
+}
+.bg-transparent{
+    backdrop-filter: blur(20px);
+}
+.cont{
+    width: 800px;
+    backdrop-filter: blur(20px);
+}
+p{
+
+    border-radius: 10px;
+    padding: 10px;
+}
+
+@media (max-width: 576px){
+    .w-75{
+        width: 94% !important;
+    }
+}
